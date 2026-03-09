@@ -7,3 +7,6 @@
     - DDL - Data definition language -> příkazy pro vytváření struktury
     - DML - Data manipulation language -> příkazy pro manipulaci s daty
         - např. SELECT, INSERT, UPDATE, DELETE
+
+## Vyhledávání v databázi
+1. **SELECT** <sloupec,sloupec,...>|* **FROM** <tabulka> **WHERE** <podmínka> **ORDER BY** <sloupec,sloupec,...>
