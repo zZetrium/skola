@@ -11,7 +11,7 @@
 ## Vyhledávání v databázi
 1. **SELECT** \<sloupec,sloupec,...> *nebo* * **FROM** <tabulka>  
     - **WHERE** \<podmínka>
-    - **ORDER BY** \<sloupec,sloupec,...> asc|dsc
+    - **ORDER BY** \<sloupec,sloupec,...> asc|desc
     - **JOIN** <tabulka>
         - **USING**(\<sloupec>)
         - **ON** \<podmínka>
