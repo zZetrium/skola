@@ -9,9 +9,9 @@
         - např. SELECT, INSERT, UPDATE, DELETE
 
 ## Vyhledávání v databázi
-1. **SELECT** <sloupec,sloupec,...> *nebo* * **FROM** <tabulka>  
-    - **WHERE** <podmínka>
-    - **ORDER BY** <sloupec,sloupec,...> asc|dsc
+1. **SELECT** \<sloupec,sloupec,...> *nebo* * **FROM** <tabulka>  
+    - **WHERE** \<podmínka>
+    - **ORDER BY** \<sloupec,sloupec,...> asc|dsc
     - **JOIN** <tabulka>
-        - **USING**(<sloupec>)
-        - **ON** <podmínka>
+        - **USING**(\<sloupec>)
+        - **ON** \<podmínka>
