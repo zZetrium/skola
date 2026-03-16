@@ -10,3 +10,4 @@
 
 ## Vyhledávání v databázi
 1. **SELECT** <sloupec,sloupec,...>|* **FROM** <tabulka> **WHERE** <podmínka> **ORDER BY** <sloupec,sloupec,...> asc|dsc
+
