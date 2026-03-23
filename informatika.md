@@ -15,3 +15,8 @@
     - **JOIN** <tabulka>
         - **USING**(\<sloupec>)
         - **ON** \<podmínka>
+
+SELECT customers.contactFirstName,customers.contactLastName,employees.firstName,employees.lastName FROM customers 
+JOIN employees ON customers.salesRepEmployeeNumber = employees.employeeNumber
+JOIN offices ON employees.officeCode = offices.officeCode
+ORDER BY offices.country,offices.city
