@@ -16,7 +16,20 @@
         - **USING**(\<sloupec>)
         - **ON** \<podmínka>
 
+
+
+
 SELECT customers.contactFirstName,customers.contactLastName,employees.firstName,employees.lastName FROM customers 
 JOIN employees ON customers.salesRepEmployeeNumber = employees.employeeNumber
 JOIN offices ON employees.officeCode = offices.officeCode
 ORDER BY offices.country,offices.city
+
+
+SELECT products.productName, orders.orderDate, orders.status,
+	CASE
+    	WHEN orders.status = "Cancelled" THEN orderdetails.quantityOrdered
+    END AS quantityOrdered
+FROM orders
+JOIN orderdetails USING(orderNumber)
+JOIN products USING(productCode)
+ORDER BY orders.orderDate DESC;
