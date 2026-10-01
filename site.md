@@ -2,4 +2,8 @@
 
 - technologie připojení
   - drátové
-    - optické
+    - optické (sklo, umělá hmota)
+    - metalické
+        - ethernetové (UTP)
+        - jiné (využití jiného např. telefonního vedení: VDSL)
+  - bezdrátové
