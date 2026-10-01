@@ -33,3 +33,6 @@ FROM orders
 JOIN orderdetails USING(orderNumber)
 JOIN products USING(productCode)
 ORDER BY orders.orderDate DESC;
+
+
+
