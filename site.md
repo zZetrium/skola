@@ -20,3 +20,9 @@
 
 ### AP - access point
 - vysílač/přijímač wifi - je připojený do routeru po kabelu nebo lze přijímat wifi a dál opakovat její signál - wifi repeater (nepotřebuje signál)
+
+## WWW world wide web
+- typ: server-klient
+- protokol HTTP(hypertext transfer protocol):
+- HTTPS navíc secure = HTTP přes šifrovaný komunikační kanál
+  
